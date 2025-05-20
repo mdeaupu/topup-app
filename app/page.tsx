@@ -19,21 +19,6 @@ export const gameData = [
     imageUrl: "/ff-1.jpg", // Pastikan path ini benar
     topupUrl: "/freefire",
   },
-  {
-    name: "Mobile Legends",
-    imageUrl: "/ml-1.jpg", // Pastikan path ini benar
-    topupUrl: "/mobilelegends2",
-  },
-  {
-    name: "Arena Breakout",
-    imageUrl: "/ab-1.jpg", // Pastikan path ini benar
-    topupUrl: "/arenabreakout2",
-  },
-  {
-    name: "Free Fire",
-    imageUrl: "/ff-1.jpg", // Pastikan path ini benar
-    topupUrl: "/freefire2",
-  },
 ];
 
 export default function Home() {

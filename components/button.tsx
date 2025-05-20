@@ -7,7 +7,7 @@ export const LoginButton = () => {
   return (
     <button
       type="submit"
-      className="w-full text-white bg-blue-700 font-medium rounded-lg px-6 py-2.5 text-center uppercase cursor-pointer hover:bg-blue-800"
+      className="w-full text-white bg-black font-medium rounded-lg px-6 py-2.5 text-center uppercase cursor-pointer hover:bg-gray-900"
     >
       {pending ? "Authtenticating..." : "Sign In"}
     </button>
@@ -19,9 +19,9 @@ export const RegisterButton = () => {
   return (
     <button
       type="submit"
-      className="w-full text-white bg-blue-700 font-medium rounded-lg px-6 py-2.5 text-center uppercase cursor-pointer hover:bg-blue-800"
+      className="w-full text-white bg-black font-medium rounded-lg px-6 py-2.5 text-center uppercase cursor-pointer hover:bg-gray-900"
     >
-      {pending ? "Registering..." : "Register"}
+      {pending ? "Authtenticating..." : "Sign Up"}
     </button>
   );
 };

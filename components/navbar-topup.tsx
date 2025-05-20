@@ -34,7 +34,7 @@ const NavbarTopUp = async () => {
               className="flex items-center text-sm ring-2 px-4 py-2 bg-[#5b6c8f] rounded-full cursor-pointer list-none"
             >
               <p className="mr-2 hidden md:inline-block font-semibold text-white capitalize">
-                Masuk
+                Sign In
               </p>
 
               <Image
@@ -98,8 +98,8 @@ const NavbarTopUp = async () => {
                   <ul className="absolute top-full right-0 mt-2 w-32 bg-white rounded-md shadow-md z-10">
                     <li>
                       <Link
-                        href="/dashboard"
-                        className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                        href="/profile"
+                        className="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md"
                       >
                         Profile
                       </Link>
@@ -122,7 +122,7 @@ const NavbarTopUp = async () => {
                       >
                         <button
                           type="submit"
-                          className="block px-4 py-2 text-red-500 hover:bg-gray-100 w-full text-left cursor-pointer"
+                          className="block px-4 py-2 text-red-500 hover:bg-gray-100 rounded-md w-full text-left cursor-pointer"
                         >
                           Sign Out
                         </button>

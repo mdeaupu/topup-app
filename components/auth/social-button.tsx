@@ -12,7 +12,7 @@ export const GoogleButton = () => {
     >
       <button
         type="submit"
-        className="flex items-center justify-center gap-1 py-2.5 rounded-lg uppercase text-white font-medium text-sm bg-blue-500 w-full cursor-pointer"
+        className="flex items-center justify-center gap-1 py-2.5 rounded-lg uppercase text-blue-500 font-medium text-sm bg-white w-full cursor-pointer"
       >
         <IoLogoGoogle />
         Sign In With Google

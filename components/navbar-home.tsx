@@ -24,7 +24,7 @@ const NavbarHome = async () => {
             className="flex items-center text-sm ring-2 px-4 py-2 bg-[#5b6c8f] rounded-full cursor-pointer list-none"
           >
             <p className="mr-2 hidden md:inline-block font-semibold text-white capitalize">
-              Masuk
+              Sign In
             </p>
 
             <Image
@@ -75,7 +75,7 @@ const NavbarHome = async () => {
                   <li>
                     <Link
                       href="/profile"
-                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md"
                     >
                       Profile
                     </Link>
@@ -89,7 +89,7 @@ const NavbarHome = async () => {
                     >
                       <button
                         type="submit"
-                        className="block px-4 py-2 text-red-500 hover:bg-gray-100 w-full text-left cursor-pointer"
+                        className="block px-4 py-2 text-red-500 hover:bg-gray-100 w-full rounded-md text-left cursor-pointer"
                       >
                         Sign Out
                       </button>

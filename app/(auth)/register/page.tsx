@@ -5,12 +5,20 @@ import { redirect } from "next/navigation";
 const Register = async () => {
   const session = await auth();
   if (session) {
-    redirect("/dashboard");
+    redirect("/");
   }
   return (
-    <div className="p-6 space-y-4">
-      <h1 className="text-2xl font-bold text-gray-900">Create an account</h1>
-      <FormRegister />
+    <div className="flex flex-col items-center justify-between px-6 py-5 mx-auto">
+      <div className="w-full bg-[#4578a7] rounded-lg shadow max-w-md">
+        <div className="p-6 space-y-4">
+          <div className="text-center">
+            <h1 className="text-2xl font-bold text-gray-900">
+              Create an account
+            </h1>
+          </div>
+          <FormRegister />
+        </div>
+      </div>
     </div>
   );
 };
